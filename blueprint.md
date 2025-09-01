@@ -1,23 +1,17 @@
-# Project Blueprint
+# Blueprint
 
-## Overview
+## Visión General
 
-This project is a personal portfolio website for Javier Sayago, a software engineer and freelance designer. It showcases his skills, experience, and projects.
+Este proyecto es un portafolio personal de una página para mostrar las habilidades y experiencia de un desarrollador de software. Incluye secciones como "Sobre mí", "Servicios" y "Portafolio".
 
-## Implemented Features
+## Plan Actual
 
-*   **Responsive Design:** The website is fully responsive and adapts to different screen sizes.
-*   **Services Section:**  Highlights the different services offered, including front-end, back-end, and consulting.
-*   **Portfolio Section:**  Displays a gallery of completed projects.
-*   **About Me Section:** Provides a brief bio and background.
-*   **Contact Information:** Includes links to social media and a contact form.
+La solicitud actual es agregar una función de tema claro/oscuro al sitio web.
 
-## Current Task: Dark/Light Theme
+### Pasos
 
-*   **Goal:** Implement a dark/light theme switcher to allow users to choose their preferred viewing mode.
-*   **Plan:**
-    1.  **Create `theme.css`:**  A new CSS file will be created to define the color schemes for the light and dark themes using CSS variables.
-    2.  **Modify `index.html`:** A theme toggle button will be added to the navigation bar.
-    3.  **Create `theme.js`:**  A new JavaScript file will be created to handle the theme switching logic and save the user's preference in `localStorage`.
-    4.  **Update `script.js`:** The main script will be updated to initialize the theme switching functionality.
-
+1.  **Crear `assets/css/dark-theme.css`**: Crear una nueva hoja de estilos para los estilos del tema oscuro.
+2.  **Modificar `index.html`**:
+    *   Agregar un enlace a la nueva hoja de estilos (`dark-theme.css`).
+    *   Agregar un botón de cambio de tema a la barra de navegación.
+3.  **Modificar `assets/js/script.js`**: Agregar el código JavaScript para manejar el cambio de tema, incluida la detección de las preferencias del sistema y el guardado de la elección del usuario en `localStorage`.
