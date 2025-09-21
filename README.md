@@ -1,2 +1,3 @@
-# html-freebie-portfolio-perfect
-One page template, a great choice for creating a personal portfolio website, including services, projects and contact form with nice and smooth scrolling through the sections. Modern and clean HTML5 template, perfect for your online CV.
+Un portafolio digital web es un sitio web que sirve como tu tarjeta de presentación profesional en línea. Su propósito principal es exhibir tus mejores trabajos, habilidades y logros para demostrar tu valor a clientes potenciales o empleadores.
+
+Es mucho más que un simple currículum; es una galería visual y una narrativa de tu trayectoria. A diferencia de un CV estático, un portafolio te permite mostrar tus proyectos en su contexto real. Por ejemplo, un diseñador puede incluir imágenes de alta calidad de sus proyectos, mientras que un desarrollador puede enlazar a sus aplicaciones funcionales o a su código en GitHub.
