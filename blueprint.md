@@ -2,16 +2,30 @@
 
 ## Visión General
 
-Este proyecto es un portafolio personal de una página para mostrar las habilidades y experiencia de un desarrollador de software. Incluye secciones como "Sobre mí", "Servicios" y "Portafolio".
+Este proyecto es un portafolio personal diseñado para mostrar tus habilidades y proyectos. El objetivo es crear un sitio web visualmente atractivo, moderno y fácil de usar que destaque tu trabajo.
 
-## Plan Actual
+## Pila Tecnológica
 
-La solicitud actual es agregar una función de tema claro/oscuro al sitio web.
+*   **HTML:** Para la estructura del sitio web.
+*   **CSS:** Para el estilo y el diseño.
+*   **JavaScript:** Para la interactividad y la funcionalidad dinámica.
 
-### Pasos
+## Estructura del Proyecto
 
-1.  **Crear `assets/css/dark-theme.css`**: Crear una nueva hoja de estilos para los estilos del tema oscuro.
-2.  **Modificar `index.html`**:
-    *   Agregar un enlace a la nueva hoja de estilos (`dark-theme.css`).
-    *   Agregar un botón de cambio de tema a la barra de navegación.
-3.  **Modificar `assets/js/script.js`**: Agregar el código JavaScript para manejar el cambio de tema, incluida la detección de las preferencias del sistema y el guardado de la elección del usuario en `localStorage`.
+*   `index.html`: El punto de entrada principal de la aplicación.
+*   `assets/css/`: Contiene las hojas de estilo.
+    *   `style.css`: Estilos principales.
+    *   `responsive.css`: Estilos para el diseño responsivo.
+    *   `theme.css`: Estilos para el tema.
+*   `assets/js/`: Contiene los archivos de JavaScript.
+    *   `script.js`: Script principal.
+*   `assets/img/`: Contiene las imágenes.
+
+## Plan de Desarrollo Actual
+
+El objetivo actual era resolver un error de Git relacionado con la desincronización entre el repositorio local y el remoto.
+
+### Pasos Realizados
+
+1.  **`git pull --rebase`**: Se utilizó este comando para traer los cambios del repositorio remoto e integrar los cambios locales encima de ellos, manteniendo un historial de commits limpio.
+2.  **`git push`**: Se utilizó este comando para subir los cambios locales al repositorio remoto, completando la sincronización.
