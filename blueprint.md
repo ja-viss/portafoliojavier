@@ -23,9 +23,13 @@ Este proyecto es un portafolio personal diseñado para mostrar tus habilidades y
 
 ## Plan de Desarrollo Actual
 
-El objetivo actual era resolver un error de Git relacionado con la desincronización entre el repositorio local y el remoto.
+El objetivo actual es optimizar la página para mejorar su posicionamiento en los motores de búsqueda (SEO) y la experiencia del usuario.
 
 ### Pasos Realizados
 
-1.  **`git pull --rebase`**: Se utilizó este comando para traer los cambios del repositorio remoto e integrar los cambios locales encima de ellos, manteniendo un historial de commits limpio.
-2.  **`git push`**: Se utilizó este comando para subir los cambios locales al repositorio remoto, completando la sincronización.
+1.  **Optimización de metaetiquetas:** Se actualizó el título, la descripción y las palabras clave para que sean más descriptivos y relevantes para los motores de búsqueda.
+2.  **Mejora de la accesibilidad de las imágenes:** Se añadieron atributos `alt` descriptivos a todas las imágenes para mejorar la accesibilidad y el SEO.
+3.  **Corrección de enlaces:** Se reemplazaron los enlaces de redes sociales y del portafolio que no llevaban a ninguna parte por las URL correctas.
+4.  **Actualización del contenido:** Se sustituyó el texto de relleno "Lorem ipsum" en las descripciones de los proyectos por contenido más significativo.
+5.  **Integración con redes sociales:** Se añadieron metaetiquetas de Open Graph para mejorar la visualización del portafolio cuando se comparte en redes sociales.
+6.  **Actualización del copyright:** Se actualizó el año del copyright a 2024.
